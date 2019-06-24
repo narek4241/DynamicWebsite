@@ -1,0 +1,70 @@
+.insert{
+	font-size: 28px;
+	display: block;
+	margin: 40px;
+	border: 1px solid black;
+	width: 720px;
+	padding: 20px;
+	border-radius: 10px;
+	background: gray;
+}
+table.tbl, .tbl tr, .tbl td, .tbl th {
+	border-collapse: collapse;	
+	padding: 4px 50px;
+	text-align: left;
+}
+.tbl  img:hover{
+	box-sizing: border-box;
+	padding: 5px;
+	border-radius: 26px;
+	transform: scale(1.15);
+	transition-duration: 0.2s;
+	background: red;
+	}
+.insert input[type='text']{
+	width: 400px;
+	height: 20px;
+	font-size: 25px;
+	border: 1px solid darkgray;
+	padding: 4px;
+	background: lightgray;	
+}
+
+
+.insert input[type='number']{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	background: lightgray;
+	border: 1px solid darkgray;
+	padding: 4px;	
+}
+.insert input[type='file']{
+	width: 300px;
+	height: 50px;
+	padding: 5px;
+	}
+.insert textarea{
+	padding: 14px;
+	background: lightgray;
+	min-width: 300px;
+	min-height: 120px;
+	font-size: 16px;
+
+}
+
+.insert input[type='submit']{
+	width: 180px;
+	height: 70px;
+	font-size: 40px;
+	background: lightgray;
+	display: block;
+	margin: auto;
+	border-radius: 20px;
+}
+
+
+
+
+
+
